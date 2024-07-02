@@ -19,6 +19,7 @@ public class htmlapp extends HttpServlet{
 		pw.println("<tr><td>Ganesh</td><td>90</td><td>A+</td></tr>");
 		pw.println("<tr><td>Kishore</td><td>82</td><td>A</td></tr>");
 		pw.println("</table>");
+		pw.println("<h3 style='color=#851254;text-align=center'><a href='page.html'>Home</a></h3>");
 		
 		res.setHeader("refresh","3");
 		pw.println("<h1>"+new Date()+"</h1>");

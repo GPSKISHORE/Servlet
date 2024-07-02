@@ -59,4 +59,14 @@
 		<url-pattern>/plain1</url-pattern>
 	</servlet-mapping>
 	
+	<servlet>	
+		<servlet-name>age</servlet-name>
+		<servlet-class>com.tcs.gpsk.DrivingLicenceEligibility</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>age</servlet-name>
+		<url-pattern>/drive1</url-pattern>	
+	</servlet-mapping>
+	
 </web-app>
