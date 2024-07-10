@@ -2,6 +2,7 @@ package com.tcs.gpsk;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Arrays;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
@@ -21,10 +22,15 @@ public class jsServlet extends HttpServlet {
 				{ "Kyoto", "Osaka", "Hiroshima", "Tokyo", "Saporro" } };
 
 		PrintWriter pw = res.getWriter();
-		pw.println("<br><br><h2 Style='color:blue;text-align:center'> Top 5 cities are --> " + city[num][0] + ", "
-				+ city[num][1] + ", " + city[num][2] + ", " + city[num][3] + ", " + city[num][4] + " </h1>");
+		pw.println("<br><br><h2 Style='color:blue;text-align:center'> Top 5 cities are --> " + Arrays.toString(city[num])+ " </h1>");
 		pw.println("<br><br><a href='input.html'> Home </a>");
 		pw.close();
+		System.out.println("Post");
 	}
-
+	public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
+		PrintWriter pw = res.getWriter();
+		pw.println("<br><br><h1> Current Time is "+ new java.util.Date()+"</h1>");
+		pw.println("<br><br><a href='input.html'> Home </a>");
+		System.out.println("Get");
+	}
 }
