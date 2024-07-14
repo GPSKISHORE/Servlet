@@ -1,17 +1,17 @@
 <web-app>
 
 	<welcome-file-list>
-		<welcome-file>Links.html</welcome-file>
+		<welcome-file>Form.html</welcome-file>
 	</welcome-file-list>
 	
 	<servlet>
-		<servlet-name>country</servlet-name>	
-		<servlet-class>com.tcs.gpsk.jsServlet</servlet-class>
+		<servlet-name>Form</servlet-name>	
+		<servlet-class>com.tcs.gpsk.FormInsetion</servlet-class>
 	</servlet>
 	
 	<servlet-mapping>
-		<servlet-name>country</servlet-name>	
-		<url-pattern>/city</url-pattern>
+		<servlet-name>Form</servlet-name>	
+		<url-pattern>/Form</url-pattern>
 	</servlet-mapping>
 	
 	<servlet>
@@ -23,4 +23,5 @@
 		<servlet-name>link</servlet-name>	
 		<url-pattern>/link</url-pattern>
 	</servlet-mapping>
+	
 </web-app>

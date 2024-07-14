@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Details</title>
+</head>
+<body>
+	<h1 style="color:red;text-align:center"><u>Please enter the following details </u></h1>
+	<form action="Form" method="GET">
+		<table border="1" align="center" bgcolor="cyan">
+			<tr>
+				<td>Full Name </td> 
+				<td><input type="text" name='name'></td> 
+			</tr>
+			<tr>
+				<td>Age </td> 
+				<td><input type="password" name='age'></td> 
+			</tr>
+			<tr>
+				<td>Addres</td>
+				<td><textarea name="add" rows="5" cols="20" maxlength="100"></textarea></td>
+			</tr>
+			<tr>
+				<td>Marital Status </td>
+				<td><input type="radio" name="ms" value="Maried"> Maried 
+				    <input type="radio" name="ms" value="Single"> Single </td>
+			</tr>
+			<tr>
+				<td>Qualificatoin </td>
+				<td>
+					<select name="qlfy">
+						<option>--select a value--</option>
+						<option value="B-Tech">B-Tech</option>
+						<option value="B.Sc">B.sc</option>
+						<option value="Diplamo">Diplamo</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Hobies </td>
+				<td><input type="checkbox" name="s1" value="Watching TV">Watching TV &nbsp;&nbsp;&nbsp;&nbsp; 
+					<input type="checkbox" name="s1" value="Plaing Games">Plaing Games<br>
+					<input type="checkbox" name="s1" value="Reading Books">Reading Books &nbsp; 
+					<input type="checkbox" name="s1" value="Stamp Collection">Stamp Collection</td>
+			</tr>
+			<tr>
+				<td>Fav Cousine</td>
+				<td>
+					<select name="cousine" multiple>
+						<option value="indian" selected>Indian</option>
+						<option value="continentl">Continental</option>
+						<option value="french">France</option>
+						<option value="thai">Thailand</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Fav Color</td>
+				<td><input type="color" name="favcolor"></td>
+			</tr>
+			<tr>
+				<td>Lucky Number</td>
+				<td><input type="number" name="lnum"></td>
+			</tr>
+			<tr>
+				<td>Email Id</td>
+				<td><input type="email" name="email"></td>
+			</tr>
+			<tr>
+				<td>Salary</td>
+				<td><input type="range" name="sal" min="15000" max="100000"></td>
+			</tr>
+			<tr>
+				<td>Date of Birth</td>
+				<td><input type="date" name="dob"></td>
+			</tr>
+			<tr>
+				<td>Time of Birth </td>
+				<td><input type="time" name="tob"></td>
+			</tr>
+			<tr>
+				<td>Date & Time of Joinings</td>
+				<td><input type="datetime-local" name="doj"></td>
+			</tr>
+			<tr>
+				<td>Contact </td>
+				<td><input type="tel" name="contact"></td>
+			</tr>
+			<tr>
+				<td>Energitic month </td>
+				<td><input type="month" name="em"></td>
+			</tr>
+			<tr>
+				<td>Entergitic week</td>
+				<td><input type="week" name="ew"></td>
+			</tr>
+			<tr>
+				<td>Linkdin URL</td>
+				<td><input type="url" name="url"></td>
+			</tr>
+			<tr>
+				<td>Google Search String</td>
+				<td><input type="search" name="search"></td>
+			</tr>
+			<tr>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="image" src="images/submit.jpeg" width="100px" height="30px"></td>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="Cancel"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
