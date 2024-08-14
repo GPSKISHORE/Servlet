@@ -13,5 +13,12 @@
 			<attribute name="owner.project.facets" value="jst.web"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/app/gpski/product/21c/dbhomeXE/jdbc/lib/ojdbc11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/gpski/Downloads/commons-io-2.16.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

@@ -19,6 +19,8 @@ public class FormInsetion extends HttpServlet {
 		String ms=req.getParameter("ms");
 		String qufy=req.getParameter("qlfy");
 		String hobies[]=req.getParameterValues("s1");
+		if(hobies==null)
+			hobies=new String[] {"No hobies selected"};
 		String qusine[]=req.getParameterValues("cousine");
 		String color=req.getParameter("favcolor");
 		String num=req.getParameter("lnum");
